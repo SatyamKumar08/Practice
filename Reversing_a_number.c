@@ -1,5 +1,4 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 
 //Easy way to reverse a number
 
@@ -9,14 +8,14 @@ int main()
     int n, r;
     int i = 0;
 
-    cout<<"Enter n: ";
-    cin>>n;			//user input
+    printf("Enter n: ");
+    scanf("%d", &n);		//user input
 
     while(n > 0)
     {
-        r = n % 10;		//finding remainder
-        n = n / 10;		//eliminating ones place
-        arr[i] = r;		//storing remainder in an array
+        r = n % 10;		    //finding remainder
+        n = n / 10;		    //eliminating ones place
+        arr[i] = r;		    //storing remainder in an array
         printf("%d", arr[i]);
         i++;
     }
