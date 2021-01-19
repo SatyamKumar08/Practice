@@ -1,2 +1,0 @@
-# Practice
-Solved coding problems
