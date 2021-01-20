@@ -11,7 +11,7 @@ int main(void){
 
     while(1){
         printf("\nEnter 's' to start multiplication table.\nEnter 'c' to close multiplication table.\n");
-        fflush(stdin);
+        fflush(stdin);          // used to flush previous stored memory
         scanf("%c",&d);        // user input to start table
 
         switch(d){             
